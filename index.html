@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Блог Дарьи Шутиковой — ЛР7</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+</head>
+<body>
+
+<header>
+  <h1>Блог Дарьи Шутиковой</h1>
+  <p>Готовка, творчество и вдохновение</p>
+  <button id="themeToggle" class="btn small">🌙 Тема</button>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#main">Главная</a></li>
+    <li><a href="#gallery-section">Галерея</a></li>
+    <li><a href="#reviews-section">Цитаты</a></li>
+  </ul>
+</nav>
+
+<div class="container" id="main">
+
+  <main>
+
+    <section class="tabs-section card" id="tabs-section">
+      <div class="tabs-container">
+        <div class="tabs">
+          <button class="tab-btn active" data-tab="tab-1">Обо мне</button>
+          <button class="tab-btn" data-tab="tab-2">Отзывы</button>
+          <button class="tab-btn" data-tab="tab-3">Контакты</button>
+        </div>
+        <div class="tab-content active" id="tab-1">
+          <p>Привет! Я Дарья, люблю готовить и делиться идеями.</p>
+        </div>
+        <div class="tab-content" id="tab-2">
+          <p>Отзывы показываются здесь.</p>
+        </div>
+        <div class="tab-content" id="tab-3">
+          <p>+1926</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section card" id="gallery-section">
+      <h2>Галерея из API</h2>
+      <div id="images" class="images-grid">Загрузка...</div>
+      <button id="loadImagesBtn" class="btn wide">Загрузить новые</button>
+    </section>
+
+    <section class="card reviews" id="reviews-section">
+      <h2>Цитаты</h2>
+      <div id="reviews" class="review-box">Загрузка...</div>
+      <button id="newReviewsBtn" class="btn wide">Обновить цитату</button>
+    </section>
+
+    <!-- jQuery UI draggable / datepicker -->
+    <section class="card">
+      <h2>Drag & Drop</h2>
+      <div id="draggable" class="ui-widget-content" style="width:150px;padding:10px;text-align:center;">
+        Перетащи меня
+      </div>
+      <input type="text" id="datepicker" placeholder="Выберите дату">
+    </section>
+
+  </main>
+
+  <aside class="sidebar">
+    <h3>Популярное</h3>
+    <ul>
+      <li>Рецепты</li>
+      <li>Творчество</li>
+      <li>Путешествия</li>
+    </ul>
+  </aside>
+
+</div>
+
+<!-- Модалка -->
+<div id="modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImg">
+</div>
+
+<button id="scrollTopBtn" class="scroll-btn">↑</button>
+
+<footer>
+  <p>© 2025 Дарья Шутикова</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
