@@ -9,17 +9,18 @@
 
 ### Вкладки ("Обо мне", "Отзывы", "Контакты")
 
-
-### Плавная прокрутка навигации
-
+<img width="638" height="236" alt="image" src="https://github.com/user-attachments/assets/089fec08-2b5b-4c0f-8985-9257ed8a2e27" />
 
 ### Галерея с API изображениями
+<img width="2143" height="1160" alt="image" src="https://github.com/user-attachments/assets/74d6707f-e89a-4189-a01b-07e18518a9a7" />
 
 
 ### Загрузка цитат через AJAX
+<img width="2111" height="442" alt="image" src="https://github.com/user-attachments/assets/fb776bdd-a7d2-43e5-918d-417b84603f0d" />
 
 
 ### Перетаскиваемый элемент и Datepicker
+<img width="595" height="285" alt="image" src="https://github.com/user-attachments/assets/f821f615-c5b0-4d49-a246-3363fa0fe2f4" />
 
 
 ---
@@ -54,3 +55,4 @@
 - Блок с динамичной цитатой через AJAX.  
 - Перетаскиваемый элемент и календарь через jQuery UI.  
 - Реализация темной и светлой темы с корректными контрастными цветами.
+
